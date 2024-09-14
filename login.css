@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background: url('back.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  width: 20%;
+  background-color: rgba(34, 24, 113, 0.5);
+  padding: 80px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(34, 24, 113, 0.2);
+  backdrop-filter: blur(10px);
+  position: relative; 
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%; 
+  box-sizing: border-box;
+  
+}
+
+input:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; 
+  gap: 10px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #222671;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+button.back {
+  background-color: #444; 
+}
+
+button.login {
+  background-color: #222671;
+}
